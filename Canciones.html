@@ -1,67 +1,83 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Canciones JJ</title>
 </head>
 
 <body>
-
+    <!-- Encabezado principal de la página -->
     <h1>Composiciones JJ</h1>
 
+    <!-- Tabla que contiene las canciones, imágenes y reproductores de audio -->
     <table cellspacing="30">
-
         <thead>
-            <th>JJ</th>
-            <th>JJ</th>
+            <!-- Encabezados de las columnas (aquí se usa "JJ" como título) -->
+            <tr>
+                <th>JJ</th>
+                <th>JJ</th>
+            </tr>
         </thead>
 
         <tbody>
+            <tr>
+                <!-- Columna 1: Imagen de la carátula de "Lilium" -->
+                <td>
+                    <div>
+                        <img src="images/Lilium.webp" width="225" alt="Carátula de Lilium" />
+                    </div>
+                </td>
 
-            <td>
-                <div>
-                    <img src="images/Lilium.webp" width="225" alt="Carátula de Lilium" />
-                </div>
-            </td>
-
-            <td>
-                <div>
-                    <img src="images/Proyect V.1.webp" width="400" alt="Carátula de Proyect V.1" />
-                </div>
-            </td>
+                <!-- Columna 2: Imagen de la carátula de "Proyect V.1" -->
+                <td>
+                    <div>
+                        <img src="images/Proyect V.1.webp" width="400" alt="Carátula de Proyect V.1" />
+                    </div>
+                </td>
+            </tr>
 
             <tr>
+                <!-- Títulos de las canciones -->
                 <th>"Lilium"</th>
                 <th>"Proyect V.1"</th>
             </tr>
 
             <tr>
-                <th>
+                <!-- Reproductor de audio para "Lilium" -->
+                <td>
                     <div>
                         <audio controls>
                             <source src="songs/Lilium.mp3" type="audio/mpeg">
-                            Your browser does not support the audio element.
+                            <!-- Mensaje de compatibilidad en caso de que el navegador no soporte el reproductor de audio -->
+                            Tu navegador no soporta el elemento de audio.
                         </audio>
                     </div>
-                </th>
+                </td>
 
-                <th>
+                <!-- Reproductor de audio para "Proyect V.1" -->
+                <td>
                     <div>
                         <audio controls>
                             <source src="songs/Proyect V.1.mp3" type="audio/mpeg">
-                            Your browser does not support the audio element.
+                            <!-- Mensaje de compatibilidad en caso de que el navegador no soporte el reproductor de audio -->
+                            Tu navegador no soporta el elemento de audio.
                         </audio>
                     </div>
-                </th>
+                </td>
             </tr>
-
         </tbody>
     </table>
 
+    <!-- Enlace para volver a la página de presentación principal -->
     <a href="index.html">Volver a la presentación</a>
-    <br />
-    <br />
+    <br /><br />
 </body>
-<footer>Derechos Reservados 2024</footer>
+
+<!-- Pie de página con derechos reservados -->
+<footer>
+    <p>Derechos Reservados 2024</p>
+</footer>
 
 </html>
