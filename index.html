@@ -5,123 +5,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presentación</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bordes.css">
 </head>
 
 <body>
-    <!-- Título principal de la página -->
-    <h1 id="Bienvenida">Cruz Laparra José Julián</h1>
-
-    <!-- Introducción -->
-    <p>Bienvenido a mi primera página de presentación.</p>
-
-    <!-- Sección de Imagen Personal -->
-    <div>
+    <div class="uno">
+        <!-- Título principal de la página -->
+        <h1 id="Bienvenida">Cruz Laparra José Julián</h1>
+        <!-- Introducción -->
+        <p>Bienvenido a mi primera página de presentación.</p>
+        <!-- Sección de Imagen Personal -->
         <img src="images/Me.jpg" width="350" alt="Yo merengues xd" />
+        <p>Ese soy io xd</p>
+        <hr />
     </div>
-    <p>Ese soy io xd</p>
-    <br />
-    <hr />
 
-    <!-- Sección de Teclado Casio -->
-    <h2>Casio CTK-611</h2>
-    <div>
+    <div class="dos">
+        <!-- Sección de Teclado Casio -->
+        <h2>Casio CTK-611</h2>
         <img src="images/casio-ctk-611.png" width="450" alt="teclado casio-ctk-611" />
+        <p>Y este es mi humilde teclado</p>
+        <hr />
     </div>
-    <p>Y este es mi humilde teclado</p>
-    <hr />
 
-    <!-- Enlaces a otras secciones de la página -->
-    <h2>Mis composiciones musicales</h2>
-    <a href="Canciones.html">Click Aquí</a>
-    <hr />
+    <div class="tres">
+        <!-- Enlaces a otras secciones de la página -->
+        <h2>Mis composiciones musicales</h2>
+        <a href="Canciones.html">Click Aquí</a>
+        <hr />
+    </div>
 
-    <h2>Mis Covers</h2>
-    <a href="Covers.html">Click Aquí</a>
-    <hr />
+    <div class="uno">
+        <h2>Mis Covers</h2>
+        <a href="Covers.html">Click Aquí</a>
+        <hr />
+    </div>
 
-    <!-- Historia personal -->
-    <h2>Historia</h2>
-    <p>
-        Nací en Tapachula, Chiapas. Y viví por más de 21 años en una colonia llamada: Álvaro Obregón.
-        <br />
-        Soy el hermano de en medio, pero no Malcolm el de en medio xd.
-    </p>
-    <hr />
+    <div class="dos" id="biografia">
+        <!-- Historia personal -->
+        <h2>Historia</h2>
+        <p>Nací en Tapachula, Chiapas. Y viví por más de 21 años en una colonia llamada: Álvaro Obregón.<br />Soy el
+            hermano de en medio, pero no Malcolm el de en medio xd.</p>
+        <hr />
+    </div>
 
-    <!-- Lista de hobbies -->
-    <h2>Hobbies</h2>
-    <p>Me gusta realizar algunos hobbies, los cuales algunos de ellos son:</p>
-    <ul>
-        <li>Jugar CODM</li>
-        <li>Leer algo que me gusta</li>
-        <li>Tocar el teclado</li>
-        <li>Escuchar música, en especial la música con sintetizadores</li>
-    </ul>
-    <hr />
+    <div class="tres" id="hobbies">
+        <!-- Lista de hobbies -->
+        <h2>Hobbies</h2>
+        <p>Me gusta realizar algunos hobbies, los cuales algunos de ellos son:</p>
+        <ul>
+            <li>Jugar CODM</li>
+            <li>Leer algo que me gusta</li>
+            <li>Tocar el teclado</li>
+            <li>Escuchar música, en especial la música con sintetizadores</li>
+        </ul>
+        <hr />
+    </div>
 
-    <!-- Álbumes musicales favoritos -->
-    <h2>Álbumes musicales favoritos</h2>
-    <ul>
-        <li>Hurry Up We're Dreaming By M83</li>
-        <li>Cleopatra By The Lumineers</li>
-        <li>Piano Poetry By Austin Farwell</li>
-        <li>L'amour Toujours By Gigi D'Agostino</li>
-    </ul>
-    <hr />
+    <div class="uno" id="experiencia">
+        <!-- Experiencia laboral en tabla -->
+        <h2>Experiencia laboral</h2>
+        <table cellspacing="40">
+            <thead>
+                <tr>
+                    <th>Lugar</th>
+                    <th>Actividad</th>
+                    <th>Ciudad</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Walmart</td>
+                    <td>Empacador</td>
+                    <td>Tapachula</td>
+                    <td>Chiapas</td>
+                </tr>
+                <tr>
+                    <td>Pastelería y Repostería "ISIS"</td>
+                    <td>Vendedor/Comerciante</td>
+                    <td>Tapachula</td>
+                    <td>Chiapas</td>
+                </tr>
+                <tr>
+                    <td>Diseños Tacaná</td>
+                    <td>Digitalizador de bordados</td>
+                    <td>Tapachula</td>
+                    <td>Chiapas</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr />
+    </div>
 
-    <!-- Experiencia laboral en tabla -->
-    <h2>Experiencia laboral</h2>
-    <table cellspacing="40">
-        <thead>
-            <tr>
-                <th>Lugar</th>
-                <th>Actividad</th>
-                <th>Ciudad</th>
-                <th>Estado</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Walmart</td>
-                <td>Empacador</td>
-                <td>Tapachula</td>
-                <td>Chiapas</td>
-            </tr>
-            <tr>
-                <td>Pastelería y Repostería "ISIS"</td>
-                <td>Vendedor/Comerciante</td>
-                <td>Tapachula</td>
-                <td>Chiapas</td>
-            </tr>
-            <tr>
-                <td>Diseños Tacaná</td>
-                <td>Digitalizador de bordados</td>
-                <td>Tapachula</td>
-                <td>Chiapas</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr />
+    <div class="dos" id="contacto">
+        <!-- Formulario enlace -->
+        <h2>Formulario</h2>
+        <a href="Formulario.html">Click Aquí</a>
+        <hr />
+    </div>
 
-    <!-- Formulario enlace -->
-    <h2>Formulario</h2>
-    <a href="Formulario.html">Click Aquí</a>
-    <hr />
-
-    <!-- Redes Sociales -->
-    <h2>Redes sociales</h2>
-    <a target="_blank" href="https://www.instagram.com/j_juliancl/">Instagram</a> <br />
-    <a target="_blank" href="https://www.facebook.com/josejulian.cruzlaparra.1">Facebook</a> <br />
-
-    <!-- Enlaces adicionales comentados -->
-    <!--
-    <a href="http://google.com">Google</a><br />
-    <a href="#Bienvenida">Inicio</a><br />
-    <a href="mailto:juliantiwb@gmail.com">Escríbeme</a><br />
-    -->
+    <div class="tres" id="redes-sociales">
+        <!-- Redes Sociales -->
+        <h2>Redes sociales</h2>
+        <a target="_blank" href="https://www.instagram.com/j_juliancl/">Instagram</a><br />
+        <a target="_blank" href="https://www.facebook.com/josejulian.cruzlaparra.1">Facebook</a><br />
+    </div>
 </body>
 
-<!-- Pie de página -->
 <footer>
     <p>Derechos Reservados 2024</p>
 </footer>

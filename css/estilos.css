@@ -1,3 +1,114 @@
-html{
-    font-size: 12pt;
+/* Fondo y texto general */
+html {
+    font-size: 14px;
+    background-color: #f1bd5d; /* Mostaza suave */
+    color: #3C3C3C; /* Marrón oscuro para el texto */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilo para el título principal */
+h1 {
+    color: #593C39; /* Marrón oscuro */
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+/* Subtítulos */
+h2 {
+    color: #593C39; /* Marrón oscuro */
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px 0;
+}
+
+/* Párrafos */
+p {
+    color: #3C3C3C; /* Marrón oscuro */
+    text-align: center;
+    margin: 10px 20px;
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+/* Enlaces */
+a {
+    color: #D46865; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #A14442; 
+}
+
+/* Listas */
+ul, ol {
+    list-style-type: disc;
+    color: #3C3C3C;
+    font-size: 0.4cm;
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* Tabla */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #9c5b42; 
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #fbad37; 
+    color: white;
+}
+
+td {
+    background-color: #FFEEAD; 
+}
+
+/* Imágenes */
+img {
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Botón */
+input[type="submit"] {
+    background-color: #ff352e; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #A14442; 
+}
+
+/* Pie de página */
+footer {
+    background-color: #E9F3FA; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
 }

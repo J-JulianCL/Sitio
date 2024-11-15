@@ -5,37 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto conmigo</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bordes.css">
 </head>
 
 <body>
-    <!-- Título de la página -->
-    <h1>Contáctame</h1>
-    <hr />
+    <div class="uno">
+        <h1>Contáctame</h1>
+        <hr />
+        <form method="post" enctype="text/plain" action="">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="tuNombre" placeholder="Tu nombre" required /><br />
 
-    <!-- Formulario de contacto -->
-    <!-- Se usa "post" para enviar los datos, aunque el "action" está vacío, lo que significa que no se enviarán a ningún servidor -->
-    <!-- "enctype" es text/plain para enviar los datos en texto plano, pero podría ajustarse a "application/x-www-form-urlencoded" para envíos estándar -->
-    <form method="post" enctype="text/plain" action="">
+            <label for="email">Tu e-mail:</label>
+            <input type="email" id="email" name="tuE-mail" placeholder="tuemail@ejemplo.com" required /><br />
 
-        <!-- Campo de entrada para el nombre del usuario -->
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="tuNombre" placeholder="Tu nombre" required /> <br />
+            <label for="mensaje">Tu mensaje:</label>
+            <textarea id="mensaje" name="tuMensaje" rows="10" cols="30" placeholder="Escribe tu mensaje aquí..." required></textarea><br />
 
-        <!-- Campo de entrada para el email del usuario -->
-        <label for="email">Tu e-mail:</label>
-        <input type="email" id="email" name="tuE-mail" placeholder="tuemail@ejemplo.com" required /> <br />
-
-        <!-- Área de texto para el mensaje del usuario -->
-        <label for="mensaje">Tu mensaje:</label>
-        <textarea id="mensaje" name="tuMensaje" rows="10" cols="30" placeholder="Escribe tu mensaje aquí..."
-            required></textarea> <br />
-
-        <!-- Botón para enviar el formulario -->
-        <input type="submit" value="Enviar" />
-    </form>
-
-    <!-- Enlace para volver a la página de presentación principal -->
-    <a href="index.html">Volver a la presentación</a>
+            <input type="submit" value="Enviar" />
+        </form>
+        <a href="index.html">Volver a la presentación</a>
+    </div>
 </body>
 
 </html>
