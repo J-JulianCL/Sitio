@@ -4,27 +4,27 @@
     max-width: 700px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #FFF8E3; /* Fondo claro */
+    background-color: #fff8e3ec; /* Fondo claro */
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 /* Colores específicos para cada sección */
 .uno {
-    border-left: 5px solid #D46865; /* Barra decorativa en rosa oscuro */
+    border-left: 5px solid #ca251f; /* Barra decorativa */
 }
 
 .dos {
-    border-left: 5px solid #D48C65; /* Barra decorativa en tono terracota */
+    border-left: 5px solid #cf5e21; /* Barra decorativa */
 }
 
 .tres {
-    border-left: 5px solid #8CB5A2; /* Barra decorativa en verde menta */
+    border-left: 5px solid #2baf72; /* Barra decorativa */
 }
 
 /* Bordes en imágenes */
 img {
-    border: 2px solid #E8B4A0; /* Rosa pastel */
-    padding: 5px;
-    border-radius: 10px;
+    border: 1.5px solid #000000; /* Borde de una imagen */
+    padding: 4px;
+    border-radius: 12px;
 }
